@@ -1,5 +1,4 @@
-#ifndef __CAMIO__
-#define __CAMIO__
+#pragma once
 #include "camguin.hh"
 #include <utility>
 #include <vector>
@@ -1067,4 +1066,3 @@ void writePostPanFile_h(Int_t runNumber = 1369, Int_t splitNumber = -1, TString 
   }
   contents.clear();
 }
-#endif // __CAMIO__

@@ -1,5 +1,4 @@
-#ifndef __VQwAnalyzer_h__
-#define __VQwAnalyzer_h__
+#pragma once
 
 #include <iostream>
 
@@ -29,4 +28,3 @@ class VQwAnalyzer : public VQwSystem {
 
 };
 
-#endif // __VQwAnalyzer_h__

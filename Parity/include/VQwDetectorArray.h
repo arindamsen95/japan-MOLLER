@@ -1,15 +1,4 @@
-/**********************************************************\
-* File: VQwDetectorArray.h                                  *
-*                                                          *
-* Author: Kevin Ward (Original code by P.M. King)                                      *
-* Time-stamp: <2007-05-08 15:40>                           *
-\**********************************************************/
-
-///
-/// \ingroup QwAnalysis_ADC
-
-#ifndef __VQWDETECTORARRAY__
-#define __VQWDETECTORARRAY__
+#pragma once
 
 // System headers
 #include <vector>
@@ -249,4 +238,3 @@ class VQwDetectorArray: virtual public VQwSubsystemParity {
 };
 
 
-#endif

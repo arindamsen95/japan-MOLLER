@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwPMT_Channel.h                                           *
-*                                                          *
-* Author: P. M. King                                       *
-* Time-stamp: <2007-05-08 15:40>                           *
-\**********************************************************/
-
-#ifndef __QwPMT_CHANNEL__
-#define __QwPMT_CHANNEL__
+#pragma once
 
 #include <vector>
 #include "TTree.h"
@@ -100,4 +92,3 @@ class QwPMT_Channel: public VQwDataElement {
 
 
 
-#endif

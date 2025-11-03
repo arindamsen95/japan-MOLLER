@@ -1,5 +1,4 @@
-#ifndef Podd_THaCodaData_h_
-#define Podd_THaCodaData_h_
+#pragma once
 
 /////////////////////////////////////////////////////////////////////
 //
@@ -97,4 +96,3 @@ protected:
 };
 
 
-#endif

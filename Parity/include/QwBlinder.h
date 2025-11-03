@@ -1,13 +1,4 @@
-/*!
- * \file   QwBlinder.h
- * \brief  A class for blinding data, adapted from G0 blinder class.
- *
- * \author Peiqing Wang
- * \date   2010-04-14
- */
-
-#ifndef __QWBLINDER__
-#define __QWBLINDER__
+#pragma once
 
 // System headers
 #include <vector>
@@ -326,4 +317,3 @@ class QwBlinder {
     std::vector<Int_t> fPairCounters; ///< Counts the number of helicity pairs in each failure mode
 };
 
-#endif //__QWBLINDER__

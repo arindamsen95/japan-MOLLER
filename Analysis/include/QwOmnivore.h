@@ -1,5 +1,4 @@
-#ifndef QWOMNIVORE_H
-#define QWOMNIVORE_H
+#pragma once
 
 #include "VQwSubsystemParity.h"
 //#include "VQwSubsystemTracking.h"
@@ -121,4 +120,3 @@ class QwOmnivore: public VQwSubsystem_t {
     void CalculateRunningAverage() { };
 };
 
-#endif

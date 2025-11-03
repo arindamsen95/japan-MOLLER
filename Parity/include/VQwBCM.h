@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: VQwBCM.h                                           *
-*                                                          *
-* Author: (??) & J.C Cornejo                               *
-* Time-stamp: <2011-05-26>                                 *
-\**********************************************************/
-
-#ifndef __VQWBCM__
-#define __VQWBCM__
+#pragma once
 
 // System headers
 #include <vector>
@@ -155,4 +147,3 @@ protected:
 
 typedef boost::shared_ptr<VQwBCM> VQwBCM_ptr;
 
-#endif // __VQWBCM__

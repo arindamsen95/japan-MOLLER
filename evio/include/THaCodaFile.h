@@ -1,5 +1,4 @@
-#ifndef Podd_THaCodaFileh_h_
-#define Podd_THaCodaFileh_h_
+#pragma once
 
 /////////////////////////////////////////////////////////////////////
 //
@@ -54,4 +53,3 @@ private:
 };
 
 
-#endif

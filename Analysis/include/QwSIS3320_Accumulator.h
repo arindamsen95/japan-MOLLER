@@ -1,21 +1,4 @@
-/**
- * \class	QwSIS3320_Accumulator	QwSIS3320_Accumulator.h
- *
- * \brief	SIS3320 sampling ADC accumulator
- *
- * \author	W. Deconinck
- * \date	2009-09-04 18:06:23
- * \ingroup	QwCompton
- *
- * The QwSIS3320_Accumulator should allow convenient access to the accumulator
- * data collected with the SIS3320 for the Compton photon detector.  This class
- * implements its own sum, difference, and ratio methods inherited from the
- * general VQwDataElement.
- *
- */
-
-#ifndef __QwSIS3320_Accumulator__
-#define __QwSIS3320_Accumulator__
+#pragma once
 
 // System headers
 #include <iostream>
@@ -114,4 +97,3 @@ inline std::ostream& operator<< (std::ostream& stream, const QwSIS3320_Accumulat
   return stream;
 }
 
-#endif // __QwSIS3320_Accumulator__

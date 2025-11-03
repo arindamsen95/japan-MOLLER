@@ -1,14 +1,4 @@
-/*!
- * \file   QwDatabase.h
- * \brief  A class for handling connections to the Qweak database.
- *
- * \author Damon Spayde
- * \date   2010-01-07
- */
-
-#ifdef __USE_DATABASE__
-#ifndef QWPARITYDB_HH
-#define QWPARITYDB_HH
+#pragma once
 
 // System headers
 #include <map>
@@ -121,4 +111,3 @@ class QwParityDB: public QwDatabase {
 
 #endif
 
-#endif // #ifdef __USE_DATABASE__                                                                                                         

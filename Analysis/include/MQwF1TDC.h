@@ -1,15 +1,4 @@
-
-/**********************************************************\
-* File: MQwF1TDC.h                                         *
-*                                                          *
-* Author: P. M. King                                       *
-*         J. H. Lee                                        *
-* Time-stamp: <2008-07-08 15:40>                           *
-\**********************************************************/
-
-
-#ifndef __MQwF1TDC__
-#define __MQwF1TDC__
+#pragma once
 
 #include "Rtypes.h"
 #include "QwTypes.h"
@@ -189,4 +178,3 @@ class MQwF1TDC{
 
 };
 
-#endif

@@ -1,5 +1,4 @@
-#ifndef __VQwDataserver_h__
-#define __VQwDataserver_h__
+#pragma once
 
 #include <iostream>
 
@@ -30,4 +29,3 @@ class VQwDataserver : public VQwSystem {
 
 };
 
-#endif // __VQwAnalyzer_h__

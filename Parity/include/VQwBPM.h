@@ -1,13 +1,4 @@
-/**********************************************************\
-* File: VQwBPM.h                                           *
-*                                                          *
-* Author: B.Waidyawansa                                    *
-* Time-stamp: <2010-05-24>                                 *
-\**********************************************************/
-
-
-#ifndef __VQWBPM__
-#define __VQWBPM__
+#pragma once
 
 // System headers
 #include <boost/shared_ptr.hpp>
@@ -325,7 +316,4 @@ public:
 };
 
 typedef boost::shared_ptr<VQwBPM> VQwBPM_ptr;
-
-#endif
-
 

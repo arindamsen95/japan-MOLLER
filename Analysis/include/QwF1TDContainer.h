@@ -1,5 +1,4 @@
-#ifndef __QwF1TDContainer__
-#define __QwF1TDContainer__
+#pragma once
 /**
  *  \file   QwF1TDContainer.h
  *  \brief  
@@ -506,4 +505,3 @@ private:
 };
 
 
-#endif

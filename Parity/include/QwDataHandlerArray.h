@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwDataHandlerArray.h                           *
-*                                                          *
-* Author: P. M. King                                       *
-* Time-stamp: <2009-02-04 10:30>                           *
-\**********************************************************/
-
-#ifndef __QWDATAHANDLERARRAY__
-#define __QWDATAHANDLERARRAY__
+#pragma once
 
 #include <vector>
 #include <map>
@@ -207,4 +199,3 @@ class QwDataHandlerArray:
 
 }; // class QwDataHandlerArray
 
-#endif // __QWDATAHANDLERARRAY__

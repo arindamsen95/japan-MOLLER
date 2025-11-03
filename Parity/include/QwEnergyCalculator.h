@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwEnergyCalculator.h                              *
-*                                                         *
-* Author:  B.Waidyawansa                                  *
-* Time-stamp: 05-24-2010                                  *
-\**********************************************************/
-
-#ifndef __QwVQWK_ENERGYCALCULATOR__
-#define __QwVQWK_ENERGYCALCULATOR__
+#pragma once
 
 // System headers
 #include <vector>
@@ -145,4 +137,3 @@ class QwEnergyCalculator : public VQwDataElement{
 
 };
 
-#endif

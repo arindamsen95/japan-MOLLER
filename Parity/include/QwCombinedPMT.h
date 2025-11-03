@@ -1,6 +1,4 @@
-
-#ifndef __QwMollerADC_COMBINEDPMT__
-#define __QwMollerADC_COMBINEDPMT__
+#pragma once
 
 // System headers
 #include <vector>
@@ -158,4 +156,3 @@ class QwCombinedPMT : public VQwDataElement {
 
 };
 
-#endif

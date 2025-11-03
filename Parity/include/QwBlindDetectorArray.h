@@ -1,14 +1,4 @@
-/**********************************************************\
-* File: QwBlindDetectorArray.h                           *
-*                                                          *
-* Author: P. M. King                                       *
-* Time-stamp: <2007-05-08 15:40>                           *
-\**********************************************************/
-
-/// \ingroup QwAnalysis_ADC
-
-#ifndef __QWBLINDDETECTORARRAY__
-#define __QWBLINDDETECTORARRAY__
+#pragma once
 
 // System headers
 #include <vector>
@@ -68,4 +58,3 @@ class QwBlindDetectorArray:
 };
 
 
-#endif

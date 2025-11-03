@@ -1,12 +1,4 @@
-/********************************************************\
-* File: VQwClock.h                                       *
-*                                                        *
-* Author: Juan Carlos Cornejo <cornejo@jlab.org>         *
-* Time-stamp: <2011-06-16>                               *
-\********************************************************/
-
-#ifndef __VQWCLOCK__
-#define __VQWCLOCK__
+#pragma once
 
 // System headers
 #include <vector>
@@ -98,4 +90,3 @@ public:
 
 typedef boost::shared_ptr<VQwClock> VQwClock_ptr;
 
-#endif // __VQWCLOCK__

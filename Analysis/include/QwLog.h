@@ -1,13 +1,4 @@
-/*!
- * \file   QwLog.h
- * \brief  A logfile class, based on an identical class in the Hermes analyzer
- *
- * \author Wouter Deconinck
- * \date   2009-11-25
- */
-
-#ifndef QWLOG_HH
-#define QWLOG_HH
+#pragma once
 
 // System headers
 #include <iostream>
@@ -198,4 +189,3 @@ class QwLog : public std::ostream {
 
 extern QwLog gQwLog;
 
-#endif

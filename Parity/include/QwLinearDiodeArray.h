@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwLinearDiodeArray.h                              *
-*                                                         *
-* Author: B.Waidyawansa                                   *
-* Time-stamp: 09-14-2010                                  *
-\**********************************************************/
-
-#ifndef __QwLinearDiodeArray__
-#define __QwLinearDiodeArray__
+#pragma once
 
 // System headers
 #include <vector>
@@ -169,4 +161,3 @@ class QwLinearDiodeArray : public VQwBPM {
 };
 
 
-#endif

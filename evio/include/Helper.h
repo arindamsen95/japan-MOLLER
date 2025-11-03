@@ -1,5 +1,4 @@
-#ifndef Podd_Helper_
-#define Podd_Helper_
+#pragma once
 
 ///////////////////////////////////////////////////////////////////////////////
 //                                                                           //
@@ -202,4 +201,3 @@ namespace Podd {
 
 } // end namespace Podd
 
-#endif  // Podd_Helper_

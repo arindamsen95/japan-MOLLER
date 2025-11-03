@@ -1,12 +1,4 @@
-/********************************************************\
-* File: QwClock.h                                        *
-*                                                        *
-* Author: Juan Carlos Cornejo <cornejo@jlab.org>         *
-* Time-stamp: <2011-06-16>                               *
-\********************************************************/
-
-#ifndef __QWCLOCK__
-#define __QWCLOCK__
+#pragma once
 
 // System headers
 #include <vector>
@@ -156,4 +148,3 @@ class QwClock : public VQwClock {
 
 };
 
-#endif // __QWCLOCK__

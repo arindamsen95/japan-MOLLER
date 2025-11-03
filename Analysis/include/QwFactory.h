@@ -1,5 +1,4 @@
-#ifndef __QWFACTORY__
-#define __QWFACTORY__
+#pragma once
 
 // System headers
 #include <cxxabi.h>
@@ -250,4 +249,3 @@ class MQwDataElementCloneable: public MQwCloneable<VQwDataElement,dataelement_t>
 #define RegisterDataElementFactory(A) template<> const VQwDataElementFactory* MQwCloneable<VQwDataElement,A>::fFactory = new QwFactory<VQwDataElement,A>(#A)
 
 
-#endif // __QWFACTORY__

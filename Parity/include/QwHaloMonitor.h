@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwHaloMonitor.h                                   *
-*                                                         *
-* Author:B. Waidyawansa                                   *
-* Time-stamp:24-june-2010                                 *
-\**********************************************************/
-
-#ifndef __QwHALO_MONITOR__
-#define __QwHALO_MONITOR__
+#pragma once
 
 // System headers
 #include <vector>
@@ -147,4 +139,3 @@ class  QwHaloMonitor : public VQwDataElement{
 };
 
 
-#endif

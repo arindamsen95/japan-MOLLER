@@ -1,17 +1,4 @@
-/**
- * \class QwMollerDetector  QwMollerDetector.h
- *
- * \brief Implementation of the analysis of Moller data (copied from QwComptonElectronDetector.h)
- *
- * \author  Andrew Kubera
- * \date  2010-06-07
- * \ingroup QwMoller
- *
- */
-
-
-#ifndef __QwMollerDetector__
-#define __QwMollerDetector__
+#pragma once
 
 // System headers
 #include <vector>
@@ -157,4 +144,3 @@ class QwMollerDetector:
 
 };
 
-#endif // __QwMollerDetector__

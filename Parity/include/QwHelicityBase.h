@@ -5,8 +5,7 @@
 * Time-stamp:                                             *
 \**********************************************************/
 
-#ifndef __QwHELICITYBASE__
-#define __QwHELICITYBASE__
+#pragma once
 
 // System headers
 #include <vector>
@@ -280,8 +279,5 @@ virtual  VQwSubsystem& operator-= (VQwSubsystem *value) {return *this;};
   }
 
 };
-
-
-#endif
 
 

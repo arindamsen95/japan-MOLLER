@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwBeamLine.h                                      *
-*                                                         *
-* Author:                                                 *
-* Time-stamp:                                             *
-\**********************************************************/
-
-#ifndef __QwBEAMLINE__
-#define __QwBEAMLINE__
+#pragma once
 
 // System headers
 #include <vector>
@@ -206,4 +198,3 @@ private:
 
 };
 
-#endif

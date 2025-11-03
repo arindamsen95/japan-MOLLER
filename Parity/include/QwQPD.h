@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwQPD.h                                           *
-*                                                         *
-* Author: B.Waidyawansa                                   *
-* Time-stamp: 09-14-2010                                  *
-\**********************************************************/
-
-#ifndef __QwQPD__
-#define __QwQPD__
+#pragma once
 
 // System headers
 #include <vector>
@@ -170,4 +162,3 @@ class QwQPD : public VQwBPM {
 };
 
 
-#endif

@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwIntegrationPMT.h                                *
-*                                                         *
-* Author:                                                 *
-* Time-stamp:                                             *
-\**********************************************************/
-
-#ifndef __QwMollerADC_IntegrationPMT__
-#define __QwMollerADC_IntegrationPMT__
+#pragma once
 
 // System headers
 #include <vector>
@@ -197,4 +189,3 @@ void RandomizeMollerEvent(int helicity, const QwBeamCharge& charge, const QwBeam
 
 
 
-#endif

@@ -1,13 +1,4 @@
-/**
- *  \file   QwObjectCounter.h
- *  \brief  Memory management class to count object instantiations
- *
- *  \author wdconinc
- *  \date   Nov 12, 2010
- */
-
-#ifndef QWOBJECTCOUNTER_H_
-#define QWOBJECTCOUNTER_H_
+#pragma once
 
 
 /**
@@ -68,4 +59,3 @@ size_t QwObjectCounter<T>::fObjectsCreated = 0;
 template<typename T>
 size_t QwObjectCounter<T>::fObjectsAlive = 0;
 
-#endif /* QWOBJECTCOUNTER_H_ */

@@ -1,6 +1,4 @@
-
-#ifndef QWPARITYSSQLS_HH
-#define QWPARITYSSQLS_HH
+#pragma once
 
 #define GCC_VERSION (__GNUC__ * 10000 \
                      + __GNUC_MINOR__ * 100 \
@@ -98,4 +96,3 @@ namespace QwParitySSQLS {
 #  pragma GCC diagnostic pop
 #endif
 
-#endif

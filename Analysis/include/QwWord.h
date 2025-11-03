@@ -1,12 +1,4 @@
-/*
- * QwWord.h
- *
- *  Created on: Dec 14, 2010
- *      Author: wdconinc
- */
-
-#ifndef QWWORD_H_
-#define QWWORD_H_
+#pragma once
 
 // ROOT headers
 #include "Rtypes.h"
@@ -58,4 +50,3 @@ class QwWord
 
 
 
-#endif /* QWWORD_H_ */

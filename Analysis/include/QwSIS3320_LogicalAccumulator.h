@@ -1,21 +1,4 @@
-/**
- * \class	QwSIS3320_LogicalAccumulator	QwSIS3320_LogicalAccumulator.h
- *
- * \brief	SIS3320 sampling ADC accumulator
- *
- * \author	W. Deconinck
- * \date	2009-09-04 18:06:23
- * \ingroup	QwCompton
- *
- * The QwSIS3320_LogicalAccumulator should allow convenient access to the accumulator
- * data collected with the SIS3320 for the Compton photon detector.  This class
- * implements its own sum, difference, and ratio methods inherited from the
- * general VQwDataElement.
- *
- */
-
-#ifndef __QwSIS3320_LogicalAccumulator__
-#define __QwSIS3320_LogicalAccumulator__
+#pragma once
 
 // System headers
 #include <vector>
@@ -43,4 +26,3 @@ private:
   std::vector<Double_t> fAccumulatorWeights;
 };
 
-#endif // __QwSIS3320_LogicalAccumulator__

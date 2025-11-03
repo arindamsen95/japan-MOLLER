@@ -1,5 +1,4 @@
-#ifndef QWCOLOR_H
-#define QWCOLOR_H
+#pragma once
 
 // System headers
 #include <map>
@@ -155,4 +154,3 @@ inline std::ostream& operator<<(std::ostream& out, const QwColor& color)
   return out << color.kColorMap[color.foreground];
 }
 
-#endif // QWCOLOR_H

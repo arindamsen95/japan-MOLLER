@@ -1,13 +1,4 @@
-/*!
- * \file   VQwSubsystem.h
- * \brief  Definition of the pure virtual base class of all subsystems
- *
- * \author P. M. King
- * \date   2007-05-08 15:40
- */
-
-#ifndef __VQWSUBSYSTEM__
-#define __VQWSUBSYSTEM__
+#pragma once
 
 // System headers
 #include <iostream>
@@ -365,4 +356,3 @@ class VQwSubsystem: virtual public VQwSubsystemCloneable, public MQwHistograms, 
 }; // class VQwSubsystem
 
 
-#endif // __VQWSUBSYSTEM__

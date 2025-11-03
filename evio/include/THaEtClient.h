@@ -1,5 +1,4 @@
-#ifndef Podd_THaEtClient_h_
-#define Podd_THaEtClient_h_
+#pragma once
 
 //////////////////////////////////////////////////////////////////////
 //
@@ -102,4 +101,3 @@ private:
   ClassDefOverride(THaEtClient, 0)   // ET client connection for online data
 };
 
-#endif

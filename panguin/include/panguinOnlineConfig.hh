@@ -1,5 +1,4 @@
-#ifndef panguinOnlineConfig_h
-#define panguinOnlineConfig_h 1
+#pragma once
 
 #include <utility>
 #include <fstream>
@@ -60,4 +59,3 @@ public:
   Bool_t IsMonitor() { return fMonitor; };
 };
 
-#endif //panguinOnlineConfig_h

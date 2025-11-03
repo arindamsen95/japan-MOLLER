@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwScaler_Channel.h                                 *
-*                                                          *
-* Author: J. Pan                                           *
-* Date:   Thu Sep 16 18:08:33 CDT 2009                     *
-\**********************************************************/
-
-#ifndef __QWSCALER_CHANNEL__
-#define __QWSCALER_CHANNEL__
+#pragma once
 
 // System headers
 #include <vector>
@@ -280,4 +272,3 @@ typedef class QwScaler_Channel<0xffffffff,0>    QwSIS3801_Channel;
 typedef class QwScaler_Channel<0xffffffff,0>    QwSTR7200_Channel;
 
 
-#endif

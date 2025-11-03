@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwIntegratedRaster.h                              *
-*                                                         *
-* Author:                                                 *
-* Time-stamp:                                             *
-\**********************************************************/
-
-#ifndef __QwIntegratedRaster__
-#define __QwIntegratedRaster__
+#pragma once
 
 // System headers
 #include <vector>
@@ -170,4 +162,3 @@ private:
 
 
 
-#endif

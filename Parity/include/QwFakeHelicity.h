@@ -1,18 +1,4 @@
-/**********************************************************\
-* File: QwFakeHelicity.h                                  *
-*                                                         *
-* Author: B.Waidyawansa                                   *
-* Time-stamp:03-06-2010                                   *
-\**********************************************************/
-/**
-  The QwFakeHelicity class uses a pregenerated random seed to generate
-  the fake helicity signal that then can be used to perfrom helicity
-  related calculations.
-*/
-
-
-#ifndef __QwFAKEHELICITY__
-#define __QwFAKEHELICITY__
+#pragma once
 
 #include "QwHelicity.h"
 
@@ -42,4 +28,3 @@ class QwFakeHelicity: public QwHelicityBase {
 
 };
 
-#endif

@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwBeamDetectorID.h                                *
-*                                                         *
-* Author:                                                 *
-* Time-stamp:                                             *
-\**********************************************************/
-
-#ifndef __QWBEAMDETECTORID__
-#define __QWBEAMDETECTORID__
+#pragma once
 
 // ROOT headers
 #include "Rtypes.h"
@@ -55,4 +47,3 @@ private:
 
 };
 
-#endif

@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwCombinedBPM.h                                   *
-*                                                         *
-* Author:B. Waidyawansa                                   *
-* Time-stamp:                                             *
-\**********************************************************/
-
-#ifndef __QwCOMBINEDBPM__
-#define __QwCOMBINEDBPM__
+#pragma once
 
 // System headers
 #include <vector>
@@ -228,4 +220,3 @@ private:
 
 
 
-#endif

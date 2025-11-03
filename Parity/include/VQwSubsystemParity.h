@@ -1,13 +1,4 @@
-/**********************************************************\
-* File: VQwSubsystemParity.h                               *
-*                                                          *
-* Author: P. M. King, Rakitha Beminiwattha                 *
-* Time-stamp: <2007-05-08 15:40>                           *
-\**********************************************************/
-
-
-#ifndef __VQWSUBSYSTEMPARITY__
-#define __VQWSUBSYSTEMPARITY__
+#pragma once
 
 // ROOT headers
 #include <TTree.h>
@@ -157,4 +148,3 @@ class VQwSubsystemParity: virtual public VQwSubsystem {
 	
 }; // class VQwSubsystemParity
 
-#endif // __VQWSUBSYSTEMPARITY__

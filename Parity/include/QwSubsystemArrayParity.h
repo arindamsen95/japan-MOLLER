@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwSubsystemArrayParity.h                           *
-*                                                          *
-* Author: P. M. King                                       *
-* Time-stamp: <2009-02-04 10:30>                           *
-\**********************************************************/
-
-#ifndef __QWSUBSYSTEMARRAYPARITY__
-#define __QWSUBSYSTEMARRAYPARITY__
+#pragma once
 
 #include <vector>
 #include <TTree.h>
@@ -155,4 +147,3 @@ class QwSubsystemArrayParity: public QwSubsystemArray {
 
 }; // class QwSubsystemArrayParity
 
-#endif // __QWSUBSYSTEMARRAYPARITY__

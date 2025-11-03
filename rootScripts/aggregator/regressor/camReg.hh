@@ -1,5 +1,4 @@
-#ifndef __CAMREG__
-#define __CAMREG__
+#pragma once
 #include "../camguin.hh"
 using namespace std;
 void regress_h(TString tree = "mul", Int_t runNumber = 0, Int_t minirunNumber = -2, Int_t splitNumber = 0, Int_t nRuns = -1, TString regInput = "regressionInput.txt", char delim = ' ', TString filename = "NULL"){
@@ -717,4 +716,3 @@ void regress_h(TString tree = "mul", Int_t runNumber = 0, Int_t minirunNumber = 
   //writeFile_h("test_n_data",n_data,runNumber,minirunNumber, splitNumber,nRuns);
   }
 }
-#endif // __CAMREG__

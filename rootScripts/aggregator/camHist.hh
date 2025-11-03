@@ -1,5 +1,4 @@
-#ifndef __CAMHIST__
-#define __CAMHIST__
+#pragma once
 #include "camguin.hh"
 
 #include <TH1.h>
@@ -707,4 +706,3 @@ void writeRMS_leafHist_h(TString tree = "mul", TString branch = "asym_vqwk_04_0c
     Printf("%s=%f",(const char*)rms_error,data_rms_error); 
   }
 }
-#endif // __CAMHIST__

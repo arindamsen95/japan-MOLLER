@@ -1,6 +1,4 @@
-
-#ifndef __QWSCALER__
-#define __QWSCALER__
+#pragma once
 
 // System headers
 #include <vector>
@@ -130,4 +128,3 @@ class QwScaler: public VQwSubsystemParity, public MQwSubsystemCloneable<QwScaler
     std::vector< std::pair< VQwScaler_Channel*, double > > fNorm;
 };
 
-#endif

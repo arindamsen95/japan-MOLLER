@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwBPMStripline.h                                  *
-*                                                         *
-* Author:                                                 *
-* Time-stamp:                                             *
-\**********************************************************/
-
-#ifndef __QwBPMSTRIPLINE__
-#define __QwBPMSTRIPLINE__
+#pragma once
 
 // System headers
 #include <vector>
@@ -218,4 +210,3 @@ private:
 };
 
 
-#endif

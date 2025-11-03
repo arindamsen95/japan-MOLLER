@@ -1,11 +1,4 @@
-/**********************************************************\
-* File: QwHelicityCorrelatedFeedback.h                     *
-*                                                          *
-* Author: Rakitha Beminiwattha                             *
-* Time-stamp: <2010-09-28>                                 *
-\**********************************************************/
-#ifndef __QwHelicityCorrelatedFeedback__
-#define __QwHelicityCorrelatedFeedback__
+#pragma once
 
 #include "QwHelicityPattern.h" 
 
@@ -481,4 +474,3 @@ class QwHelicityCorrelatedFeedback : public QwHelicityPattern {
   
 };
 
-#endif

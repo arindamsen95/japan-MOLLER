@@ -1,9 +1,4 @@
-///  This class exists to encapsulate several helper functions to aid in
-///  describing histograms.
-///  There will be a global copy defined within the analysis framework.
-
-#ifndef __QWHISTOGRAMHELPER__
-#define __QWHISTOGRAMHELPER__
+#pragma once
 
 #include <string>
 #include <vector>
@@ -158,7 +153,4 @@ class QwHistogramHelper{
 //  Declare a global copy of the histogram helper.
 //  It is instantiated in the source file.
 extern QwHistogramHelper gQwHists;
-
-#endif
-
 

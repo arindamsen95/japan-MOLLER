@@ -1,13 +1,4 @@
-/*!
- * \file   VQwDataElement.h
- * \brief  Definition of the pure virtual base class of all data elements
- *
- * \author P. M. King
- * \date   2007-05-08 15:40
- */
-
-#ifndef __VQWDATAELEMENT__
-#define __VQWDATAELEMENT__
+#pragma once
 
 // System headers
 #include <vector>
@@ -251,4 +242,3 @@ class VQwDataElement: public MQwHistograms {
 //@}
 }; // class VQwDataElement
 
-#endif // __VQWDATAELEMENT__

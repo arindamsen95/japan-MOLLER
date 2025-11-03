@@ -1,5 +1,4 @@
-#ifndef __CAMMATRIX__
-#define __CAMMATRIX__
+#pragma once
 #include "camguin.hh"
 #include <vector>
 #include <TString.h>
@@ -174,4 +173,3 @@ vector<vector<Double_t>> inverse_h(vector<vector<Double_t>> input, vector<vector
   }
   return output;
 }
-#endif // __CAMMATRIX__

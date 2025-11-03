@@ -1,14 +1,4 @@
-/**********************************************************\
-* File: QwDetectorArray.h                          *
-*                                                          *
-* Author: Kevin Ward (Original Code by P. M. King)                                       *
-* Time-stamp: <2007-05-08 15:40>                           *
-\**********************************************************/
-
-/// \ingroup QwAnalysis_ADC
-
-#ifndef __QWDETECTORARRAY__
-#define __QWDETECTORARRAY__
+#pragma once
 
 // System headers
 #include <vector>
@@ -55,4 +45,3 @@ QwDetectorArray(const QwDetectorArray& source)
 
 };
 
-#endif

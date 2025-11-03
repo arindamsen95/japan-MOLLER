@@ -1,5 +1,4 @@
-#ifndef __CAMDF__
-#define __CAMDF__
+#pragma once
 using namespace ROOT;
 
 // Best in root >= 6.16
@@ -1035,4 +1034,3 @@ RDataFrame Source::readSource(){
   tswAll.Start();
   return d;
 }
-#endif // __CAMDF__

@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwParameterFile.h                                  *
-*                                                          *
-* Author: P. M. King                                       *
-* Time-stamp: <2007-05-08 15:40>                           *
-\**********************************************************/
-
-#ifndef __QWPARAMETERFILE__
-#define __QWPARAMETERFILE__
+#pragma once
 
 
 // System headers
@@ -404,4 +396,3 @@ inline TString QwParameterFile::ConvertValue<TString>(const std::string& value) 
   return TString(value.c_str());
 }
 
-#endif // __QWPARAMETERFILE__

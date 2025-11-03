@@ -1,19 +1,4 @@
-/********************************************************************
-File Name: QwCorrelator.h
-
-Created by: Michael Vallee
-Email: mv836315@ohio.edu
-
-Description:  This is the header file of the QwCorrelator class,
-              which is a child of the VQwDataHandler class.  The
-              functionality of this class is derived from
-              LinRegBlue.
-
-Last Modified: August 1, 2018 1:43 PM
-********************************************************************/
-
-#ifndef QWCORRELATOR_H_
-#define QWCORRELATOR_H_
+#pragma once
 
 // Parent Class
 #include "VQwDataHandler.h"
@@ -136,4 +121,3 @@ class QwCorrelator : public VQwDataHandler, public MQwDataHandlerCloneable<QwCor
 };
 
 
-#endif //QWCORRELATOR_H_

@@ -1,18 +1,4 @@
-/*****************************************************************************
-File Name: VQwDataHandler.h
-
-Created by: Michael Vallee
-Email: mv836315@ohio.edu
-
-Description:  This is the header file to the VQwDataHandler class.  This
-              class acts as a base class to all classes which need
-              to access data from multiple subsystems
-
-Last Modified: August 1, 2018 1:39 PM
-*****************************************************************************/
-
-#ifndef VQWDATAHANDLER_H_
-#define VQWDATAHANDLER_H_
+#pragma once
 
 // Qweak headers
 #include "QwHelicityPattern.h"
@@ -182,4 +168,3 @@ class VQwDataHandler:  virtual public VQwDataHandlerCloneable, public MQwPublish
    VQwDataHandler *fRunningsum;
 };
 
-#endif // VQWDATAHANDLER_H_

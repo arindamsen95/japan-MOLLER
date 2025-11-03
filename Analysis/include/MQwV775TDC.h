@@ -1,14 +1,4 @@
-/**********************************************************\
-* File: MQwV775TDC.h                                       *
-*                                                          *
-* Author: P. M. King                                       *
-*         J. H. Lee                                        *
-* Time-stamp: <2010-04-12 12:12>                           *
-\**********************************************************/
-
-
-#ifndef __MQwV775TDC__
-#define __MQwV775TDC__
+#pragma once
 
 #include "Rtypes.h"
 #include "QwTypes.h"
@@ -90,4 +80,3 @@ class MQwV775TDC{
 
 };
 
-#endif

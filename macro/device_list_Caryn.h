@@ -1,5 +1,4 @@
-#ifndef _DEVICE_LIST_H_
-#define _DEVICE_LIST_H_
+#pragma once
 
 // File IO control variable
 TString path;
@@ -62,6 +61,4 @@ vector<const char*> vInjBPM = {"bpm2i01","bpm2i02","bpm1i02","bpm1i04",
 /* 			 "bpm0l06","bpm0l07","bpm0l08","bpm0l09", */
 /* 			 "bpm0l10","bpm0r03","bpm0r05"}; */
 
-
-#endif
 

@@ -1,14 +1,4 @@
-/*
- * QwCombiner.h
- *
- *  Created on: Oct 22, 2010
- *      Author: wdconinc
- *
- *  Last Modified: August 1, 2018 1:45 PM
- */
-
-#ifndef QWCOMBINER_H_
-#define QWCOMBINER_H_
+#pragma once
 
 // Parent Class
 #include "VQwDataHandler.h"
@@ -68,4 +58,3 @@ inline std::ostream& operator<< (std::ostream& stream, const QwCombiner::EQwHand
 }
 
 
-#endif // QWCOMBINER_H_

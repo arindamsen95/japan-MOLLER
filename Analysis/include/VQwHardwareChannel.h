@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: VQwHardwareChannel.h                               *
-*                                                          *
-* Author: P. King                                          *
-* Date:   Tue Mar 29 13:08:12 EDT 2011                     *
-\**********************************************************/
-
-#ifndef __VQWHARDWARECHANNEL__
-#define __VQWHARDWARECHANNEL__
+#pragma once
 
 // System headers
 #include <cmath>
@@ -281,4 +273,3 @@ protected:
 
 };   // class VQwHardwareChannel
 
-#endif // __MQWHARDWARECHANNEL__

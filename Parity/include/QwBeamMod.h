@@ -1,18 +1,4 @@
-/**********************************************************\
-* File: QwBeamMod.h                                       *
-*                                                         *
-* Author: Joshua Hoskins                                  *
-* Time-stamp: 052510                                      *
-***********************************************************
-*                                                         *
-* Time-Stamp: 101910                                      *
-*                                                         *
-* Added support of QwWord                                 *
-*                                                         *
-\**********************************************************/
-
-#ifndef __QwBEAMMOD__
-#define __QwBEAMMOD__
+#pragma once
 
 // System headers
 #include <vector>
@@ -217,4 +203,3 @@ class QwBeamMod: public VQwSubsystemParity, public MQwSubsystemCloneable<QwBeamM
 
 };
 
-#endif

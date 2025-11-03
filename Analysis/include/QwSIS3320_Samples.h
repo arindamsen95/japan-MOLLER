@@ -1,21 +1,4 @@
-/**
- * \class	QwSIS3320_Samples	QwSIS3320_Samples.h
- *
- * \brief	SIS3320 sampling ADC samples
- *
- * \author	W. Deconinck
- * \date	2009-09-04 18:06:23
- * \ingroup	QwCompton
- *
- * The QwSIS3320_Samples should allow convenient access to the sampling data
- * collected with the SIS3320 for the Compton photon detector.  This class
- * implements its own sum, difference, and ratio methods inherited from the
- * general VQwDataElement.
- *
- */
-
-#ifndef __QwSIS3320_Samples__
-#define __QwSIS3320_Samples__
+#pragma once
 
 // System headers
 #include <iostream>
@@ -148,4 +131,3 @@ inline std::ostream& operator<< (std::ostream& stream, const QwSIS3320_Samples& 
   return stream;
 }
 
-#endif // __QwSIS3320_Samples__

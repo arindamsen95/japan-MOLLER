@@ -1,12 +1,4 @@
-/**********************************************************\
-* File: QwBCM.h                                            *
-*                                                          *
-* Author:                                                  *
-* Time-stamp:                                              *
-\**********************************************************/
-
-#ifndef __QWBCM__
-#define __QWBCM__
+#pragma once
 
 // System headers
 #include <vector>
@@ -186,4 +178,3 @@ public:
 };
 
 
-#endif // __QWBCM__

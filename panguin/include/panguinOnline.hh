@@ -1,8 +1,4 @@
-///////////////////////////////////////////////////////////////////
-//  Macro to help with online analysis
-//    B. Moffit  Oct. 2003
-#ifndef panguinOnline_h
-#define panguinOnline_h 1
+#pragma once
 
 #include <TTree.h>
 #include <TFile.h>
@@ -103,4 +99,3 @@ public:
   void SetVerbosity(int ver){fVerbosity=ver;}
   ClassDef(OnlineGUI,0);
 };
-#endif //panguinOnline_h

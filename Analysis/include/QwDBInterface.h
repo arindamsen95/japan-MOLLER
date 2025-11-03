@@ -1,12 +1,4 @@
-/*
- * QwDBInterface.h
- *
- *  Created on: Dec 14, 2010
- *      Author: jhlee
- */
-
-#ifndef QWDBINTERFACE_H_
-#define QWDBINTERFACE_H_
+#pragma once
 
 // System headers
 #include <iostream>
@@ -252,4 +244,3 @@ inline void QwErrDBInterface::AddThisEntryToList(std::vector<T> &list)
   };
 }
 
-#endif /* QWDBINTERFACE_H_ */

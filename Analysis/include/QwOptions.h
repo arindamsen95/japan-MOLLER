@@ -1,13 +1,4 @@
-/*!
- * \file   QwOptions.h
- * \brief  An options class which parses command line, config file and environment
- *
- * \author Wouter Deconinck
- * \date   2009-12-01
- */
-
-#ifndef QWOPTIONS_H
-#define QWOPTIONS_H
+#pragma once
 
 // System headers
 #include <iostream>
@@ -312,4 +303,3 @@ class QwOptions {
     bool fParsed;
 };
 
-#endif // QWOPTIONS_H

@@ -1,13 +1,4 @@
-/*!
- * \file   QwDatabase.h
- * \brief  A class for handling connections to the Qweak database.
- *
- * \author Damon Spayde
- * \date   2010-01-07
- */
-
-#ifndef QWDATABASE_HH
-#define QWDATABASE_HH
+#pragma once
 
 // System headers
 #include <map>
@@ -107,4 +98,3 @@ class QwDatabase: private mysqlpp::Connection {
 
 };
 
-#endif

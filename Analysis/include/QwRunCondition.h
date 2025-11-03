@@ -1,5 +1,4 @@
-#ifndef __QwRunCondition__
-#define __QwRunCondition__
+#pragma once
 /**
  *  \file   QwRunCondition.h
  *  \brief  
@@ -71,4 +70,3 @@ class QwRunCondition
 //    }
 //  }
 
-#endif

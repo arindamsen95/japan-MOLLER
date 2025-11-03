@@ -1,13 +1,4 @@
-/*
- * QwCombinerSubsystem.h
- *
- *  Created on: Aug 11, 2011
- *      Author: meeker
- */
-
-
-#ifndef __QWCOMBINERSUBSYSTEM__
-#define __QWCOMBINERSUBSYSTEM__
+#pragma once
 
 // Boost headers
 #include <boost/shared_ptr.hpp>
@@ -136,6 +127,4 @@ class QwCombinerSubsystem: public VQwSubsystemParity,
       
 }; // class QwCombinerSubsystem
 
-
-#endif // __QWCOMBINERSUBSYSTEM__
 

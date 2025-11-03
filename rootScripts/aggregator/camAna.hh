@@ -1,5 +1,4 @@
-#ifndef __CAMANA__
-#define __CAMANA__
+#pragma once
 #include "camguin.hh"
 #include <TLeaf.h>
 using namespace std;
@@ -430,4 +429,3 @@ void writeMean_leafHist_h(TString mode = "default", TString tree = "mul", TStrin
   //writeFile_h("test",1.0,runNumber,minirunNumber,splitNumber,nRuns);
   }
 }*/
-#endif // __CAMANA__

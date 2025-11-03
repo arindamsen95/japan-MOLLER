@@ -1,5 +1,4 @@
-#ifndef __QwEPICSCONTROL__
-#define __QwEPICSCONTROL__
+#pragma once
 
 
 
@@ -854,4 +853,3 @@ public:
   
 };
 
-#endif

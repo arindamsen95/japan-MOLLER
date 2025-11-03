@@ -1,5 +1,4 @@
-#ifndef Podd_CustomAlloc_h_
-#define Podd_CustomAlloc_h_
+#pragma once
 
 // Custom allocators for Decoder package
 
@@ -37,4 +36,3 @@ using VectorUInt = std::vector<UInt_t>;
 using VectorUIntNI = std::vector<UInt_t, default_init_allocator<UInt_t>>;
 
 
-#endif //Podd_CustomAlloc_h_
